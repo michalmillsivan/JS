@@ -77,7 +77,7 @@ var sum = 0
 
 while (g != -99) {
 
-    if (g >= 0) {
+    if (g > 0) {
 
         sum = sum + g
         
