@@ -291,22 +291,314 @@
 //     }
 // }
 
-console.log("=========================page 32, ex.5========================")
+// console.log("=========================page 32, ex.5========================")
 
-var n = +(prompt("type")) //3
-var b = 2
-var counter = 0
-var isnotrishoni = true
+// var n = +(prompt("type")) //3
+// var b = 2
+// var counter = 0
+// var isnotrishoni = true
 
-while (isnotrishoni) {
+// while (isnotrishoni) {
 
-    while (n % b != 0) {
-      b++  
-    }
-    if (b != n) { //lorishoni
-        counter++
-        n = +(prompt("type"))
-    } else (isnotrishoni = false) //ken rishoni
+//     while (n % b != 0) {
+//         b++
+//     }
+//     if (b != n) { //lorishoni
+//         counter++
+//         n = +(prompt("type"))
+//     } else (isnotrishoni = false) //ken rishoni
 
+// }
+// console.log(counter)
+
+// console.log("=========================page 32, ex.5 Gal========================")
+
+// var p = 1 //is it rishoni? //1 is not rishoni, 0 is rishoni
+// var c = 0 //counter
+
+// while (p = 1) {
+//     var n = +(prompt("type")) //kelet 
+//     d = parseInt(n / 2) //option to square //devider
+//     p = 0 //asume integer is rishoni
+//     while (d > 1 && p == 0) {
+//         if (n % d == 0) { p = 1 } 
+//         else { d-- }
+//     }
+//     c = c + p
+
+// }
+// console.log(c)
+
+// console.log("=========================page 35, ex.4========================")
+
+// var n = +(prompt("type"))
+// var sum = 0
+
+// for (var index = 0; index <= n; index++) {
+//     if (index % 3 == 0) {
+//         sum = sum + index
+//     }
+// }
+
+// console.log(sum)
+
+
+// console.log("=========================page 46, ex.1========================")
+
+// function digitalWatch(hours, minutes, seconds) {
+//     if (hours < 10) { hours = "0" + hours }
+//     if (minutes < 10) { minutes = "0" + minutes }
+//     if (seconds < 10) { seconds = "0" + seconds}
+//     return hours + ":" + minutes + ":" + seconds
+// }
+
+// console.log(digitalWatch(14, 37, 28))
+// console.log(digitalWatch(4, 3, 8))
+
+
+// console.log("=========================Gal's home work 13/03========================")
+
+// //Write a function that receive 2 numbers and return the sum between the numbers
+
+// function sum(a, b) {
+//     sum = a + b
+//     return "The sum is " + sum
+// }
+
+// console.log(sum(2, -3))
+
+
+// //Write a function that receive 2 numbers and return the max between the numbers
+
+// function max(a, b) {
+//     if (a >= b) {
+//         console.log("the max number is " + a)
+//     } else {
+//         console.log("the max number is " + b)
+//     }
+// }
+
+// console.log(max(7, 7))
+
+
+//Write a function that receive 3 numbers and return the min between the numbers
+// function min(a, b, c) {
+//     if (a < b && a < c) {
+//         return "the min number is " + a
+//     } else if (b < a && b < c) {
+//         return "the min number is " + b
+//     } else {
+//         return "the min number is " + c
+//     }
+// }
+
+// console.log(min(2, 8, -23))
+// console.log(min(2, 8, 1))
+// console.log(min(2, 2, 2))
+// console.log(min(2, 1, 8))
+// console.log(min(2, 0, 9))
+// console.log(min(-2, 0, 9))
+
+// //Write a function that receive 2 names of products and return true if one of the products is "apple" otherwise the function will return false
+
+// function apple(a, b) {
+//     if (a == "apple" || b == "apple") {
+//         return true
+//     } else {
+//         return false
+//     }
+
+// }
+
+// console.log(apple("orange", "banana"))
+// console.log(apple("apple", "banana"))
+// console.log(apple("orange", "apple"))
+// console.log(apple("apple", "apple"))
+
+// console.log("=========================page 35, ex.6========================")
+
+// var n = +(prompt("type"))
+// var sum = 0
+
+// for (var index = 0; index <= n; index++) {
+
+//     sum = sum + Math.pow(2, index)
+
+// }
+
+// console.log(sum)
+
+// console.log("=========================page 35, ex.7========================")
+
+// var n = +(prompt("type number"))
+
+// for (var index = 1; index <= n; index++) {
+//     console.log(index)
+
+// }
+// for (let index = 1; index <= n; index++) {
+//    console.log(index*2)
+
+// }
+
+
+
+// console.log("=========================page 35, ex.8========================")
+
+// var n = +(prompt("type"))
+// var sum = 0
+
+// for (var index = 0; index <= n; index++) {
+//     if (index % 4 == 0 || index % 7 == 0) {
+//         sum = sum + index
+//     }
+
+// }
+
+// console.log(sum)
+
+// console.log("=========================page 36, ex.15========================")
+
+
+// var sum = 0
+// var count = 0
+// var grade
+// var studentName
+
+// function avrage(count, sum) {
+// if (count == 0){
+//     return "you are all stupid"
+// } else {avrage = sum / count
+// return avrage}
+// }
+
+// for (var index = 0; index < 99; index++) {
+//     studentName = prompt("student name")
+//     grade = +(prompt("grade"))
+//     if (grade > 70) {
+//         console.log(studentName)
+//         count++
+//         sum = sum + grade
+//     }
+// }
+
+// console.log(avrage(count,sum))
+
+// console.log("=========================page 37, ex.17========================")
+
+// var count = +(prompt("how many numbers do you want to check?"))
+// maxNum = 0
+// maxIndex = 0
+// numOfTimes = 0
+
+// for (var index = 1; index <= count; index++) {
+//     var num = +(prompt("type number"))
+//     if (num > maxNum) {
+//         maxIndex = index
+//         maxNum = num
+//     }
+//     if (num = maxNum) {
+//         numOfTimes++
+//     }
+
+// }
+
+// console.log(maxIndex + ") " + maxNum + "  X " + numOfIndex)
+
+
+
+
+// console.log("=========================page 37, ex.18========================")
+
+// var amount = +(prompt("how many numbers do you want to check?"))
+// var m1 = +(prompt("type in your first number"))
+// var im1 = 1
+// var im2 = 0
+// var m2 = +(prompt("type in another number"))
+
+// for (var index = 2; index <= amount; index++) {
+//     n = +(prompt("type in another number"))
+//     updateSecondMaxNumber.call(n)
+// }
+// if (im2 > 0) {
+//     console.log(m2, im2)
+// } else { console.log("all equal") }
+
+// function updateSecondMaxNumber(x) {
+//     var x
+
+//     if (x > m2) {
+//         if (x > m1) {
+//             m2 = m1
+//             im2 = im1
+//             m1 = x
+//         }
+//         im1 = index
+//     } else {
+//         if (im2 > 0 && x < m1) {
+
+//         } else {
+//             m2 = x
+//             im2 = index
+//         }
+//     }
+// }
+
+
+
+
+// console.log("=========================page 37, ex.18========================")
+
+// var amount = +(prompt("how many numbers do you want to check?"))
+// var maxNumber = +(prompt("type in your first number"))
+// var indexMaxNumber = 1
+// var indexSecondMaxNumber = 0
+// var secondMaxNumber = +(prompt("type in another number"))
+
+// for (var index = 2; index <= amount-2; index++) {
+//     n = +(prompt("type in another number"))
+//     if (n > secondMaxNumber) {
+//         if (n > maxNumber) {
+//             secondMaxNumber = maxNumber
+//             indexSecondMaxNumber = indexMaxNumber
+//             maxNumber = n
+//             indexMaxNumber = index
+//         } else {
+//             secondMaxNumber = n
+//             indexSecondMaxNumber = index
+//         }
+//     }
+
+// }
+// if (indexSecondMaxNumber > 0) {
+//     console.log(secondMaxNumber, indexSecondMaxNumber)
+// } else { console.log("all equal") }
+
+
+console.log("=========================page 48, ex.1========================")
+
+
+var nekudot = 0
+
+function Nikud(numOfSalimLezhoot, numOfSalimHov){
+tozaa = numOfSalimLezhoot - numOfSalimHov
+if (tozaa > 0) {
+    nekudot = nekudot + 2
+} else if (tozaa = 0) {
+    nekudot++
 }
-console.log(counter)
+return nekudot}
+
+
+console.log("mcabi has " + Nikud(5, 2) + " nekudot")
+console.log("mcabi has " + Nikud(2, 2) + " nekudot")
+console.log("mcabi has " + Nikud(5, 7) + " nekudot")
+
+
+
+
+
+
+
+
+
