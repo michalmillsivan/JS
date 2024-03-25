@@ -344,11 +344,15 @@
 
 
 // console.log("=========================page 46, ex.1========================")
+// function addZero(a) {
+//     if (a < 10) { a = "0" + a }
+//     return a.toString
+// }
 
 // function digitalWatch(hours, minutes, seconds) {
 //     if (hours < 10) { hours = "0" + hours }
 //     if (minutes < 10) { minutes = "0" + minutes }
-//     if (seconds < 10) { seconds = "0" + seconds}
+//     if (seconds < 10) { seconds = "0" + seconds }
 //     return hours + ":" + minutes + ":" + seconds
 // }
 
@@ -399,21 +403,20 @@
 // console.log(min(2, 0, 9))
 // console.log(min(-2, 0, 9))
 
-// //Write a function that receive 2 names of products and return true if one of the products is "apple" otherwise the function will return false
+//Write a function that receive 2 names of products and return true if one of the products is "apple" otherwise the function will return false
+// var p1 = prompt("enter the first product")
+// var p2 = prompt("enter the second product")
 
 // function apple(a, b) {
-//     if (a == "apple" || b == "apple") {
-//         return true
-//     } else {
-//         return false
+//     if (a.toString().toLowerCase() === "apple" || b.toLowerCase() === "apple") {
+//         return true;
 //     }
-
+//     return false;
 // }
+// var result = apple(p1, p2)
+// console.log("the result is " + result)
 
-// console.log(apple("orange", "banana"))
-// console.log(apple("apple", "banana"))
-// console.log(apple("orange", "apple"))
-// console.log(apple("apple", "apple"))
+
 
 // console.log("=========================page 35, ex.6========================")
 
@@ -487,9 +490,9 @@
 // console.log("=========================page 37, ex.17========================")
 
 // var count = +(prompt("how many numbers do you want to check?"))
-// maxNum = 0
-// maxIndex = 0
-// numOfTimes = 0
+// var maxNum = 0
+// var maxIndex = 0
+// var numOfTimes = 1
 
 // for (var index = 1; index <= count; index++) {
 //     var num = +(prompt("type number"))
@@ -497,13 +500,13 @@
 //         maxIndex = index
 //         maxNum = num
 //     }
-//     if (num = maxNum) {
+//     if (num === maxNum && maxIndex !== index) {
 //         numOfTimes++
 //     }
 
 // }
 
-// console.log(maxIndex + ") " + maxNum + "  X " + numOfIndex)
+// console.log(maxIndex + ") " + maxNum + "  X " + numOfTimes)
 
 
 
@@ -575,30 +578,90 @@
 // } else { console.log("all equal") }
 
 
-console.log("=========================page 48, ex.1========================")
+// console.log("=========================page 48, ex.1========================")
 
 
-var nekudot = 0
+// var nekudot = 0
 
-function Nikud(numOfSalimLezhoot, numOfSalimHov){
-tozaa = numOfSalimLezhoot - numOfSalimHov
-if (tozaa > 0) {
-    nekudot = nekudot + 2
-} else if (tozaa = 0) {
-    nekudot++
-}
-return nekudot}
-
-
-console.log("mcabi has " + Nikud(5, 2) + " nekudot")
-console.log("mcabi has " + Nikud(2, 2) + " nekudot")
-console.log("mcabi has " + Nikud(5, 7) + " nekudot")
+// function Nikud(numOfSalimLezhoot, numOfSalimHov){
+// tozaa = numOfSalimLezhoot - numOfSalimHov
+// if (tozaa > 0) {
+//     nekudot = nekudot + 2
+// } else if (tozaa = 0) {
+//     nekudot++
+// }
+// return nekudot}
 
 
-
+// console.log("mcabi has " + Nikud(5, 2) + " nekudot")
+// console.log("mcabi has " + Nikud(2, 2) + " nekudot")
+// console.log("mcabi has " + Nikud(5, 7) + " nekudot")
 
 
 
 
 
+//write a function that recives a string and check if the string length is
+// longer than 20 characters' return too long string' otherwise return the last charcter
 
+
+// function stringLength(a) {
+//     if (a.toString().length > 20) {
+//         return "too long!"
+//     } else {
+//         return a.charAt(a.toString().length - 1)
+//     }
+// }
+
+// var word = prompt("type shit")
+// var result = stringLength(word)
+// console.log(stringLength(result))
+
+
+//Write a function that receive from the user 10 cars and print only the first and the last car
+// function insertCars(numOfCars) {
+//     if (typeof numOfCars !== 'number') return
+//     var cars = [];
+//     for (var index = 0; index < numOfCars; index++) {
+//         var currentCar = prompt("enter car name")
+//         cars
+//     }
+
+// }
+
+
+
+
+// var cars = []
+
+// for (var numberOfCars = 0; numberOfCars < 10; numberOfCars++) {
+//     var newCar = prompt("Enter another car")
+//     cars.push(newCar)
+// }
+
+// console.log(cars[0], cars[cars.length - 1])
+
+// var sum = 0
+// var prices = []
+// var avrage = 0
+
+// for (var prices = 0; prices < 10; prices++) {
+//     var newPrice = prompt("Enter another car")
+//     prices.push(newPrice)
+// }
+
+// for (var index = 0; index < prices.length; index++) {
+//     sum = sum + prices[index]
+// }
+
+// avrage = sum / prices.length
+
+
+var cart = []
+function ()
+for (var cart = 0; cart < 10; cart++) {
+    var newProduct = prompt("enter product")
+    cart.push(newProduct)
+} return
+
+console.log
